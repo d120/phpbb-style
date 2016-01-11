@@ -1271,3 +1271,8 @@ ul.linklist:after,
 .dropdown .clone.hidden + li {
 	border-top: none;
 }
+
+#site-description a {
+    color: #000;
+    font-weight: bold;
+}
