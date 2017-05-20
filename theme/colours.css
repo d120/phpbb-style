@@ -52,19 +52,19 @@ hr {
 
 .headerbar, .forumbg {
 	background-color: #FFA500;
-	background-image: -webkit-linear-gradient(top, #CEFF6A 0%,#FFA500 100%);
-	background-image: linear-gradient(to bottom, #CEFF6A 0%,#FFA500 100%);
+	background-image: -webkit-linear-gradient(top, #e49300 0%,#ffbf4a 100%);
+	background-image: linear-gradient(to bottom, #e49300 0%,#ffbf4a 100%);
 	background-repeat: repeat-x;
 }
 
 .forabg {
 	background-color: #FFA500;
-	background-image: linear-gradient(to bottom, #6ACEFF 0%,#12A3EB 2px,#0076B1 92px,#0076B1 100%);
+  background-image: linear-gradient(to bottom, #ffa16a 0%,#eb8012 2px,#b17200 92px,#b16200 100%);
 	background-repeat: repeat-x;
 }
 
 .navbar {
-	background-color: #FFA500;
+	background-color: #EBEBCA;
 }
 
 .panel {
@@ -109,7 +109,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .site_logo {
-	background-image: url("./images/site_logo.gif");
+	background-image: url("./images/site_logo.png");
 }
 
 /* Horizontal lists
@@ -364,9 +364,9 @@ Colours and backgrounds for content.css
 
 ul.forums {
 	background-color: #F9F8EE;
-	background-image: -webkit-linear-gradient(top, #D2E0EB 0%, #EEF5F9 100%);
-	background-image: linear-gradient(to bottom, #D2E0EB 0%,#EEF5F9 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2E0EB', endColorstr='#EEF5F9',GradientType=0 ); /* IE6-9 */
+	background-image: -webkit-linear-gradient(top, #ebebd2 0%, #f9f8ee 100%);
+	background-image: linear-gradient(to bottom, #ebebd2 0%,#f9f8ee 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebd2', endColorstr='#f9f8ee',GradientType=0 ); /* IE6-9 */
 }
 
 ul.topiclist li {
