@@ -5,7 +5,6 @@ Colours and backgrounds for common.css
 
 html, body {
 	color: #798253;
-	background-color: #F5F7FA;
 }
 
 h1 {
@@ -41,16 +40,20 @@ hr {
 
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
-.wrap {
-	background-color: #FFF;
-	border-color: #E6E9ED;
-}
-
-.headerbar {
+.navbar, .navbar>.inner>ul>li>a, .navbar .crumb a {
 	color: #FFFFFF;
 }
 
-.headerbar, .forumbg {
+.navbar {
+  background-color: #eF9800;
+}
+.page-footer .navbar {
+  background-color: #ecf0f1; color: #7f8c8d;
+}
+.page-footer .navbar a { color: #9aa4af !important; }
+.page-footer .navbar a:hover { color: #00689D !important; }
+
+.forumbg {
 	background-color: #FFA500;
 	background-image: -webkit-linear-gradient(top, #e49300 0%,#ffbf4a 100%);
 	background-image: linear-gradient(to bottom, #e49300 0%,#ffbf4a 100%);
@@ -63,9 +66,9 @@ hr {
 	background-repeat: repeat-x;
 }
 
-.navbar {
+/*.navbar {
 	background-color: #EBEBCA;
-}
+}*/
 
 .panel {
 	background-color: #F3F2EC;

@@ -129,17 +129,14 @@ a:hover	{ text-decoration: underline; }
 
 /* Main blocks
 ---------------------------------------- */
-.wrap {
-	border: 1px solid transparent;
-	border-radius: 8px;
+.wrap, .navbar .inner {
 	margin: 0 auto;
 	max-width: 1152px;
 	min-width: 625px;
-	padding: 15px;
 }
 
 @media only screen and (max-width: 1220px), only screen and (max-device-width: 1220px) {
-	.wrap {
+	.wrap, .navbar .inner {
 		margin: 0 12px;
 	}
 }
@@ -155,6 +152,12 @@ a:hover	{ text-decoration: underline; }
 
 .page-footer h3 {
 	margin-top: 20px;
+}
+.page-footer {
+  margin-top: 50px;
+}
+.page-footer .navbar {
+  padding-top: 10px; padding-bottom: 50px;
 }
 
 .logo {
@@ -193,7 +196,15 @@ a:hover	{ text-decoration: underline; }
 
 .navbar {
 	padding: 3px 10px;
-	border-radius: 7px;
+}
+
+@media only screen and (min-width: 1221px), only screen and (min-device-width: 1221px) {
+  .navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  #page-header { margin-bottom: 80px; }
 }
 
 .forabg {
